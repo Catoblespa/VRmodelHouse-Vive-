@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1194612065231270}
+  m_IsPrefabAsset: 1
+--- !u!1 &1194612065231270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4255749236682016}
+  - component: {fileID: 114723315864839042}
+  m_Layer: 0
+  m_Name: FurnitureSystem
+  m_TagString: furnitureSystem
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4255749236682016
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1194612065231270}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.096095264, y: -0.20601773, z: -0.13669062}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114723315864839042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1194612065231270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69fa884741502a7418e9df46d5c48a7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  eventTrigger: {fileID: 0}
+  userInsert:
+  - Frunituretag: sofa
+    Prefab:
+    - {fileID: 1805401029011038, guid: b6c17b2369ebf5549ae9063997250780, type: 2}
+    - {fileID: 1750755034334074, guid: 11221e4d7f658bd4a9fc6053b843f9ed, type: 2}
+    - {fileID: 1929304318787148, guid: 5b4fd745f8327b843a6f0d294f085339, type: 2}
+    PrefabImg:
+    - {fileID: 21300000, guid: e424e925a6c9bd14e9e31948fbeea628, type: 3}
+    - {fileID: 21300000, guid: ac0b3ab5b0bdbfd449fe2524ee9af5a4, type: 3}
+    - {fileID: 21300000, guid: 2f1762c582635804986d0fc86a9a5cbd, type: 3}
+  - Frunituretag: bed
+    Prefab:
+    - {fileID: 1516476678203836, guid: b9748b57f00359e4882d7ba7062200bf, type: 2}
+    - {fileID: 1100835493302962, guid: 3622c4a51d1a3c444895442a36563b63, type: 2}
+    - {fileID: 1327058091264306, guid: de8cc192b1638a447baaf994484620fa, type: 2}
+    - {fileID: 1908420719587510, guid: 073fc74c3c5384142a17d8e2f5a83974, type: 2}
+    PrefabImg:
+    - {fileID: 21300000, guid: a7c0acee6d43e4a42b67fe9f9bee49ff, type: 3}
+    - {fileID: 21300000, guid: 51c1db2f764234540a652abf5a9ea050, type: 3}
+    - {fileID: 21300000, guid: c199394eb797ece4ea9ace2e24de8ec3, type: 3}
+    - {fileID: 21300000, guid: 1a41fde5b1312134093c626c52e33495, type: 3}
+  - Frunituretag: chair
+    Prefab:
+    - {fileID: 1491018587441054, guid: f5b0a2112f58c04429971906554c9b0c, type: 2}
+    - {fileID: 1062860405575640, guid: f325064a996ac7e4a8fba51cbfaea608, type: 2}
+    - {fileID: 1979050734495172, guid: e56314f506855a540ba25dac20720dd4, type: 2}
+    - {fileID: 1623168089855192, guid: 6d45b4987bb1a3f47a30ef55e700d30f, type: 2}
+    - {fileID: 1142928078735364, guid: f685d74541f468f4f9c69c62a69a69f9, type: 2}
+    PrefabImg:
+    - {fileID: 21300000, guid: 5986523c7423d2f44ae502314e69cd72, type: 3}
+    - {fileID: 21300000, guid: 16d36d26865d139408c5ba4a0ac962dc, type: 3}
+    - {fileID: 21300000, guid: 6ba66cccaa0ccf2498988d3db9e63aa4, type: 3}
+    - {fileID: 21300000, guid: c1bd174596bbf7842ad22c125261975a, type: 3}
+    - {fileID: 21300000, guid: bc4e2d0f0571b9346bc5e860590af446, type: 3}
